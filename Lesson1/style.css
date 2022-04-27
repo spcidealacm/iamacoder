@@ -37,25 +37,26 @@ ol li a {
 }
 
 ol li a[target="_blank"] {
-  color:rgba(248, 215, 30, 0.56)
+  color: rgba(248, 215, 30, 0.56);
 }
 
-ol li a[href="https://google.com"] {
-  color:rgba(30, 248, 128, 0.81)
+ol li a[href="https://google.com"]
+{
+  color: rgba(30, 248, 128, 0.81);
 }
 
 ol li a[href*="google"] {
-  color:rgba(248, 30, 237, 0.81)
+  color: rgba(248, 30, 237, 0.81);
 }
 
 ol li a[href^="httpss"] {
-  color:rgba(248, 30, 41, 0.81)
+  color: rgba(248, 30, 41, 0.81);
 }
 
-ol li a[href$=".com.au"]{
+ol li a[href$=".com.au"] {
   background: #444;
 }
 
-ol li a[href*="google"][href$=".com.au"]{
+ol li a[href*="google"][href$=".com.au"] {
   background: #666;
 }
